@@ -61,8 +61,20 @@ namespace OOP_Polymorphism
                 if (value.Length>10) { sound = "No Sound"; }
                 sound = value;
             }
-
-
+        }
+        public class AnimalHealth
+        {
+            public bool HealtyWeight(double height, double weight)
+            {
+                double calc = height / weight;
+                if ((calc >= .18) && (calc <= .27))
+                {
+                    return true;
+                } else
+                {
+                    return false;
+                }
+            }
         }
     }
 }
