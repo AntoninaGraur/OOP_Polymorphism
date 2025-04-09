@@ -37,6 +37,21 @@ namespace OOP_Polymorphism
             grover.GetANimal_ID_Info();
 
             Animal.AnimalHealth getHealth = new Animal.AnimalHealth();
+
+            Console.WriteLine("Is my animal healty : {0}", getHealth.HealtyWeight(11,146));
+
+            Animal monkey = new Animal()
+            {
+                Name = "Happy",
+                Sound = "Eeeeee"
+            };
+
+            Animal spot = new Dog()
+            {
+                Name = "Spot",
+                Sound = "Woaooowff",
+                Sound2 = "Grrrrrrrraw"
+            };
         }
     }
 }
