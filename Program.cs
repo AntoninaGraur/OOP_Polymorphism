@@ -52,6 +52,11 @@ namespace OOP_Polymorphism
                 Sound = "Woaooowff",
                 Sound2 = "Grrrrrrrraw"
             };
+
+            monkey.MakeSound();
+            spot.MakeSound();
+
+        
         }
     }
 }
